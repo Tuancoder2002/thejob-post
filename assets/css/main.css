@@ -1,0 +1,164 @@
+
+.container-one{
+    width: 60%;
+    height: 1350px;
+    display: flex;
+    background-image: linear-gradient(0, #451da0, #dd5649);
+    margin: 0 auto;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+}
+
+.video{
+    display: block;
+    width: 40%;
+    margin: 40px 20px 20px 20px;
+}
+
+.video-heading{
+    color: #f5f3ff;
+    font-size: 1.8rem;
+    margin-top: 0;
+}
+
+.video-content{
+    display: block;
+    color: var(--text-color);
+    font-size: 1.2rem;
+}
+
+.box-picture{
+    width: 100%;
+    height: 220px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px dashed var(--red-color);
+}
+
+.box-picture-name{
+    display: block;
+    font-size: 1rem;
+    text-align: right;
+    margin: 5px 10px 10px;
+    color: #293c8b ;
+}
+
+.box-picture--btn{
+    display: block;
+    margin: 20px auto 0;
+    background-color: var(--red-color);
+    border: none;
+    border-radius: 5px ;
+    color: var(--white-color);
+    font-size: 1.4rem;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.btn-camera{
+    font-size: 4.6rem;
+    margin-top: 20px;
+}
+
+.name-content{
+    font-size: 1.2rem;
+    color: var(--text-color);
+}
+
+.video-logo{
+    display: block;
+    width: 200px;
+    /* margin-left: -25px; */
+    text-align: center;
+}
+
+.video-logo-img{
+    width: 300px;
+}
+/* --------------info-- */
+
+.info--label{
+    font-size: 1.8rem;
+    display: block;
+}
+
+.info-who{
+    font-size: 1.2rem;
+    display: block;
+    margin-top: 10px;
+    margin-left: 2px;
+}
+.info{
+    width: 60%;
+    margin: 40px 20px 20px 20px;
+}
+
+.info-btn{
+    display: flex;
+}
+
+.info-chose{
+    margin: 10px 10px 0 0;
+    border-radius: 40%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.info-individual{
+    background-color: var(--red-color);
+    color: var(--white-color);
+}
+
+.info-company{
+    background-color: #333;
+    color: var(--white-color);
+}
+
+.list-job{
+    width: 100%;
+    padding: 0;
+    
+    
+}
+
+.info-content{
+    list-style: none;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.info-content-name{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.info-content.info-wage{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-wage-name{
+    width: 49%;
+}
+
+.info-content-name.info-content-description{
+    height: 200px;
+    padding-top: -10px;
+}
+
+.login{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-btn{
+    width: 40%;
+}
