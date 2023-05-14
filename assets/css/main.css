@@ -57,6 +57,10 @@
     cursor: pointer;
 }
 
+.box-picture--btn:hover{
+    opacity: 0.8;
+}
+
 .btn-camera{
     font-size: 4.6rem;
     margin-top: 20px;
@@ -99,6 +103,7 @@
     display: flex;
 }
 
+
 .info-chose{
     margin: 10px 10px 0 0;
     border-radius: 40%;
@@ -107,9 +112,19 @@
     cursor: pointer;
 }
 
+.info-chose:hover{
+    opacity: 0.8;
+    
+}
+
 .info-individual{
     background-color: var(--red-color);
     color: var(--white-color);
+}
+
+.info-individual:hover{
+    opacity: 0.8;
+    background-color: var(--border-color);
 }
 
 .info-company{
